@@ -1,0 +1,20 @@
+[
+{
+    "pk": 1, 
+    "model": "auth.user", 
+    "fields": {
+        "username": "root", 
+        "first_name": "", 
+        "last_name": "", 
+        "is_active": true, 
+        "is_superuser": true, 
+        "is_staff": true, 
+        "last_login": "2013-03-23T12:57:11.148Z", 
+        "groups": [], 
+        "user_permissions": [], 
+        "password": "pbkdf2_sha256$10000$ucSpmJrqsagD$J4HbnTTx+kWjC22xjrgE7hbabb2X+wbVAkgLRUku9UA=", 
+        "email": "root@localhost.com", 
+        "date_joined": "2013-03-23T12:57:11.148Z"
+    }
+}
+]
