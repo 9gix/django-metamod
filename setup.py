@@ -12,7 +12,7 @@ setup(
     packages = ['metamod'],
     include_package_data = True,
     license = 'BSD License',
-    description = 'A generic reusable Django app to handle any moderation strategy',
+    description = 'A generic Django moderation app',
     long_description = README,
     url = 'http://eugene-yeo.me/',
     author = 'Eugene',

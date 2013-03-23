@@ -1,8 +1,8 @@
 Metamod (Under Initial Development)
 ===================================
 
-Metamod is a generic reuseable Django app to handle moderation strategy.
-You can defined your own custom moderation behaviour and strategy (see strategy design pattern).
+Metamod is a generic Django moderation app.
+You can defined your own custom moderation behaviour and strategy of implementation.
 
 Use case 1: 
 If you have a Boutique object created by boutique owner, you need to ensure that the boutique clothes meet certain quality check. 
