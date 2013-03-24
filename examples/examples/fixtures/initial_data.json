@@ -9,12 +9,48 @@
         "is_active": true, 
         "is_superuser": true, 
         "is_staff": true, 
-        "last_login": "2013-03-23T12:57:11.148Z", 
+        "last_login": "2013-03-24T07:37:44.738Z", 
         "groups": [], 
         "user_permissions": [], 
         "password": "pbkdf2_sha256$10000$ucSpmJrqsagD$J4HbnTTx+kWjC22xjrgE7hbabb2X+wbVAkgLRUku9UA=", 
         "email": "root@localhost.com", 
         "date_joined": "2013-03-23T12:57:11.148Z"
+    }
+},
+{
+    "pk": 1, 
+    "model": "boutique.accessory", 
+    "fields": {
+        "created_at": "2013-03-24T06:23:49.137Z", 
+        "brand": "9gix", 
+        "modified_at": "2013-03-24T06:23:49.137Z", 
+        "name": "Super Premium Metalic Handbag"
+    }
+},
+{
+    "pk": 2, 
+    "model": "boutique.accessory", 
+    "fields": {
+        "created_at": "2013-03-24T06:24:21.437Z", 
+        "brand": "Dark Terror", 
+        "modified_at": "2013-03-24T06:24:21.437Z", 
+        "name": "Tiger Skin Belt"
+    }
+},
+{
+    "pk": 1, 
+    "model": "metamod.action", 
+    "fields": {
+        "name": "Approve", 
+        "slug": "approve"
+    }
+},
+{
+    "pk": 2, 
+    "model": "metamod.action", 
+    "fields": {
+        "name": "Reject", 
+        "slug": "reject"
     }
 }
 ]
