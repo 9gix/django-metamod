@@ -26,10 +26,11 @@ class Moderation(models.Model):
                 return True
         return False
 
-
 class ModerationStatus(models.Model):
+    # Approved, Rejected, Spam, Pending, Deleted, Incomplete, etc...
     status = models.CharField(max_length=20)
 
-
-class Strategy(models.Model):
-    module = models.CharField(max_length=100)
+class Action(models.Model):
+    # Approve, Reject, Spam, Ignore, Flag, etc...
+    name = models.CharField(max_length=20)
+    slug = models.SlugField()
