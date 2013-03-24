@@ -11,7 +11,11 @@ class ModerationPanel(object):
         if not moderation_class:
             moderation_class = ModelModeration
 
-        Meta = type('Meta', (), {'proxy': True, 'app_label': 'Moderation', 'verbose_name_plural': model._meta.verbose_name_plural})
+        meta_opts = {
+                'proxy': True, 'app_label': 'Moderation',
+                'verbose_name_plural': model._meta.verbose_name_plural}
+
+        Meta = type('Meta', (), meta_opts)
 
         options = {'__module__': 'metamod.models', 'Meta': Meta}
         proxy_model = type(model.__name__, (model,), options)
